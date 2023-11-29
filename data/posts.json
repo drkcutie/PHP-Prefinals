@@ -22,23 +22,5 @@
         "id": 4,
         "title": "Half-Baked",
         "body": "An ounce of effort and a ton of patience!"
-    },
-    {
-        "uid": 3,
-        "id": 5,
-        "title": "Hatdog",
-        "body": "hatdog"
-    },
-    {
-        "uid": 3,
-        "id": 6,
-        "title": "Drkcutie",
-        "body": "Hello, world!"
-    },
-    {
-        "uid": 3,
-        "id": 7,
-        "title": "Jake",
-        "body": "Bajo!"
     }
 ]

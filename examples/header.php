@@ -9,8 +9,8 @@
             </a>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">Posts</a></li>
+                <li><a href="index.php" class="nav-link px-2 text-secondary">Home</a></li>
+                <li><a href="post.php" class="nav-link px-2 text-white">Posts</a></li>
             </ul>
 
 
@@ -34,8 +34,8 @@
         <div id="postComment">
 
             <label >Post Comment here:</label>
-            <input type="text" name = "titleBox"  placeholder="Enter title..."/>
-            <textarea name="commentArea" id="commentArea" rows="4" cols="50"style="max-height: 100px; min-height: 50px; height: 70px"></textarea>
+            <input type="text" name = "titleBox"  placeholder="Enter title..."  required pattern=".*\S+.*" title="Field cannot be blank"/>
+            <textarea name="commentArea" id="commentArea" rows="4" cols="50" style="max-height: 100px; min-height: 50px; height: 70px" required></textarea>
             <br>
             <input type="submit" value="Submit">
         </div>

@@ -98,3 +98,61 @@ img.profile-photo-sm {
     flex-direction: column;
     margin-bottom: 10px;
 }
+#deleteButton
+{
+    background-color: #8dc63f;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 50px; /* Adjust the height to make the background smaller */
+    padding: 10px; /* Reduce the padding to make the content area smaller */
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-align: center;
+    animation: fade 0.5s;
+}
+
+#delete-popup
+{
+    background-color: #484848;
+}
+#posted-popup , #login-popup
+{
+    background-color: #ffc107;
+    color: black;
+    border: black;
+}
+#errorDelete-popup
+{
+    background-color: #f82e3e;
+}
+#error-popup
+{
+    background-color: #f82e3e;
+}
+#empty-popup
+{
+    background-color: #f82e3e;
+}
+.popup.show {
+    display: block;
+    animation: fade .5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
