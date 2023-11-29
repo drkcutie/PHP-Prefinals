@@ -35,7 +35,9 @@ session_start();
             <div class="modal-body" id="loginForm">
                 <form action="index.php" method="post">
                     <label for="fname" style="font-family: 'Courier New',sans-serif">Name: </label><br>
-                    <input type="text" name="user-name"  placeholder="Enter name..." required/>
+                    <label>
+                        <input type="text" name="user-name"  placeholder="Enter name..." required/>
+                    </label>
 
 
             </div>

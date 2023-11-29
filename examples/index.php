@@ -16,6 +16,7 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles.css">
+    <title>PHP-Prefinals</title>
 </head>
 <body>
 
